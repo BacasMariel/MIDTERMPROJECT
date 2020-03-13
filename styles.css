@@ -40,6 +40,7 @@ body{
   color: #fed136
 }
 
+
 header.masthead {
     text-align: center;
     color: black;
@@ -84,6 +85,8 @@ header.masthead .intro-text {
   padding-bottom: 10px;
     
 }
+
+
 .galleryheading{
   color: black;
   padding-top: 100px;
@@ -124,10 +127,29 @@ header.masthead .intro-text {
   }
   }
   
+  
   .portfolioheading{
     color: black;
     padding-top: 100px;
   }
+  .portfolio{
+    padding-left: 40px;
+    padding-top: 100px;
+    
+  }
+  .portfoliotext{
+    color: black;
+    text-align: justify;
+    padding-top: 100px;
+  }
+  .port{
+    color: black;
+    padding-top: 10px;
+    padding-left: 40px;
+    text-align: center;
+  }
+  
+  
 
   .aboutheading{
     color: black;
