@@ -138,8 +138,6 @@ header.masthead .intro-text {
   }
   
  
-  
-  
   .portfolioheading{
     color: black;
     padding-top: 100px;
@@ -237,12 +235,6 @@ header.masthead .intro-text {
   text-align: center;
 }
 
-.fa{
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-}
 
 .btn-floating {
   position: relative;
