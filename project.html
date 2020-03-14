@@ -7,13 +7,14 @@
     <title>Personal Website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="bootstrap-social.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
   <!--Navigation-->
-  <div  id="home">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
+  <div id="home">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#home"><img src="img/logo4.png" alt="logo"width="50" height="40" class="d-inline-block align-center" alt="">Mariel Bacas
         </a>
@@ -44,13 +45,12 @@
   </div>
   
   <!--HOME-->
-
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
         <h2 class="intro-lead-in">Welcome to my website</h2>
         <h1 class="intro-heading text-uppercase">It's Nice To Meet You</h1>
-        <a class="btn btn-outline-light btn-xl text-uppercase" href="#home">Find Out More</a>
+        <a class="btn btn-outline-light btn-xl text-uppercase" href="#about">Find Out More</a>
       </div>
     </div>
   </header>
@@ -61,15 +61,15 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-4">
-          <h3 class="home-heading">Most Popular</h3>
+          <a href="#popular"><h3 class="home-heading">Most Popular</h3></a>
           <p class="text-muted">There are a lot of popular kdrama.</p>
         </div>
         <div class="col-md-4">
-          <h3 class="home-heading">Latest</h3>
+          <a href="#latest"><h3 class="home-heading">Latest</h3></a>
           <p class="text-muted">Latest and ongoing korean dramas.</p>
         </div>
         <div class="col-md-4">
-          <h3 class="home-heading">Favorites</h3>
+          <a href="#fav"><h3 class="home-heading">Favorites</h3></a>
           <p class="text-muted">These are my favorite kdrama I already watch.</p>
         </div>
       </div>
@@ -79,55 +79,43 @@
 
 <!--GALLERY-->
   <section id="gallery">  
-  <h2 class="galleryheading text-center text-uppercase text-secondary mb-0">Gallery</h2>
-  <div class=" gallery">
+    <h2 class="galleryheading text-center text-uppercase text-secondary mb-0">Gallery</h2>
+    <div class=" gallery">
      
-      <!-- Grid column -->
+      
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/w1.jpg" alt="Card image cap">
+        <a href="gif/two.gif"><img class="img-fluid" src="img/w1.jpg" alt="Two Worlds"></a>     
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
+    
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="img/while.jpg" alt="Card image cap">
+        <a href="gif/while.gif"><img class="img-fluid" src="img/while.jpg" alt="While you were sleeping"></a>
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
+ 
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="img/goblin.jpg" alt="Card image cap">
+        <a href="gif/goblin.gif"><img class="img-fluid" src="img/goblin.jpg" alt="goblin"></a>
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/scar.jpeg" alt="Card image cap">
+        <a href="gif/scarlet.gif"><img class="img-fluid" src="img/scar.jpeg" alt="scarlet heart"></a>
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/leg.jpg" alt="Card image cap">
+        <a href="gif/legend.gif"><img class="img-fluid" src="img/leg.jpg" alt="legend of the blue sea"></a>
       </div>
-      <!-- Grid column -->
 
-      <!-- Grid column -->
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="img/strong.jpg" alt="Card image cap">
+        <a href="gif/strong.gif"><img class="img-fluid" src="img/strong.jpg" alt="strong woman do bong soon"></a> 
       </div>
-      <!-- Grid column -->
-
+ 
+      
     </div>
-    <!-- Grid row -->
-     
-  </div>
-    </section>
+  </section>
 
 <!--PORTFOLIO-->
     <section id="portfolio"> 
       <h2 class="portfolioheading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
       <div class="container">
+        <h3 class="portsub text-center" id="popular">Most Popular</h3>
         <div class="row text-center">
           <div class="col-md">
             <a href="https://kissasian.sh/Drama/Goblin" target="_blank"><img class="portfolio" src="port/goblin1.jpg" alt=""></a> 
@@ -169,6 +157,7 @@
       </div>
 
       <div class="container">
+        <h3 class="portsub text-center" id="latest">Latest</h3>
         <div class="row text-center">
           <div class="col-md">
             <a href="https://kissasian.sh/Drama/Crash-Landing-on-You" target="_blank"><img class="portfolio" src="port/crash.jpg" alt=""></a> 
@@ -206,6 +195,7 @@
       </div>
 
       <div class="container">
+        <h3 class="portsub text-center" id="fav">Favorites</h3>
         <div class="row text-center">
           <div class="col-md">
             <a href="https://kissasian.sh/Drama/While-You-Were-Sleeping" target="_blank"><img class="portfolio" src="port/while1.jpg" alt=""></a> 
@@ -240,76 +230,75 @@
             </p>
           </div>
         </div>
-      </div>
-
-     
-       
+      </div>  
     </section>
 
 <!--ABOUT-->
     <section id="about">
       <div class="container">
         <h2 class="aboutheading text-center text-uppercase text-secondary mb-0">About</h2>
-        <div class="media about">
-          <a class="pr-3" href="https://www.facebook.com/marielmae.bacas" target="_blank">
-            <img class="mr-3 mypic rounded-circle" src="img/me2.jpg" alt="my image">
-          </a>
-          
-          <div class="media-body">
-            <h5 class="mt-0">About Me</h5>
-            My name is Mariel and I'm a 2nd year college student at University of Science and technology of Southern Philippines. 
+        <div class="row">
+          <div class="col-sm-4">
+            <a class="pr-3" href="https://www.facebook.com/marielmae.bacas" target="_blank">
+              <img class="mr-3 mypic rounded-circle" src="img/me2.jpg" alt="my image">
+            </a>
+          </div>
+          <div class="col-sm-8">
+            <h2>About Me</h2><br>
+            <h4 class="text-justify">My name is Mariel and I'm a 2nd year college student at University of Science and technology of Southern Philippines. 
               I'm an Information Technology student at USTP. 
-              20 years old and live in Lapasan, Dacudao Subdivision Cagayan de Oro City. 
-        
-            <div class="media mt-3">
-              <a class="pr-3" href="#">
-                <img class="mypic rounded-circle" src="img/me1.jpg" alt="">
-              </a>
-              <div class="media-body">
-                <h5 class="mt-0">About the Website</h5>
-                I chose to design my website a kdrama website because I'm fond of watching kdrama online.
-              </div>
-            </div>
+              20 years old and live in Lapasan, Dacudao Subdivision Cagayan de Oro City. </h4><br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8">
+            <h2 class="about">About My Website</h2><br>
+            <h4 class="text-justify">I chose to design my website a kdrama website because I'm fond of watching kdrama online. 
+              I made this simple because it's still my first time creating a website</h4><br>
+          </div>
+          <div class="col-sm-4">
+            <a class="pr-3" href="#home">
+              <img class="mypic rounded-circle" src="img/me1.jpg" alt="">
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!--CONTACT-->
-    <div id="contact">
-      <div class="jumbotron">       
-        <div class="contact bg-light text-center">
-          <h4>Contact Info</h4>
+    <section id="contact">
+      <div class="container-fluid">   
+        <h2 class="contactheading text-center text-uppercase text-secondary mb-0">Contact Information</h2>    
+        <div class="contact text-center">
+          <h5 class="fas fa-map-marker-alt"> Address:</h5>
+          <h6>Lapasan, Cagayan de Oro City</h6>
+          <h5 class="fas fa-phone"> Call us:</h5>
           <h6>+63555223123</h6>
+          <h5 class="fas fa-envelope"> General Support:</h5>
           <h6>marielmaebacas@gmail.com</h6>    
         </div>
       </div>   
-    </div>
+    </section>
 
     <!--Footer-->
     <div class="card text-center">
-      <div class="row align-items-center bg-dark">
+      <div class="row footer align-items-center bg-dark">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Your Website 2020</span>
         </div>
         <div class="col-md-4">
-          <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fab fa-twitter"></span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a class="btn btn-social-icon btn-facebook" href="#">
-                <span class="fa fa-facebook"></span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
+          <a href="https://www.facebook.com/marielmae.bacas" target="_blank" class="btn-floating btn-lg btn-fb" type="button" role="button">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/IamMarielMae" target="_blank" class="btn-floating btn-lg btn-tw" type="button" role="button">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a href="https://www.gmail.com" target="_blank" class="btn-floating btn-lg btn-g" type="button" role="button">
+            <i class="fa fa-google"></i>
+          </a>
+          <a href="https://github.com/BacasMariel" target="_blank" class="btn-floating btn-lg btn-git" type="button" role="button">
+            <i class="fa fa-github"></i>
+          </a>
         </div>
       </div>
     </div>
