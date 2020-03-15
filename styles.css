@@ -9,7 +9,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
   color: black !important;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,7 +22,6 @@ h6 {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  
 }
 #mainNav {
   background-color: #000000;
@@ -125,13 +123,17 @@ header.masthead .intro-text {
   margin: 15px 0;
   padding-top: 40px;
   padding-bottom: 10px;
-    
+}
+.section-heading{
+  font-family: cursive;
+  font-size: 20px;
 }
 
 
 .galleryheading{
-  color: black;
+  color: black !important;
   padding-top: 100px;
+  font-size: 50px;
 }
 .gallery {
   color: black;
@@ -164,8 +166,9 @@ header.masthead .intro-text {
   
  
   .portfolioheading{
-    color: black;
+    color: black !important;
     padding-top: 100px;
+    font-size: 50px;
   }
   .portsub{
     color: black;
@@ -192,9 +195,10 @@ header.masthead .intro-text {
   
 
   .aboutheading{
-    color: black;
+    color: black !important;
     padding-top: 100px;
     padding-bottom: 50px;
+    font-size: 50px;
   }
   .about{
     color: black;
@@ -208,17 +212,18 @@ header.masthead .intro-text {
   }
 
 .contact{
-  color: black !important;
+  color: black;
   padding-top: 50px;
   padding-bottom: 200px;
-
+ 
   
 }
 
 .contactheading{
-  color: black;
+  color: black !important;
   padding-top: 200px;
   padding-bottom: 30px;
+  font-size: 50px;
 }
 .container-fluid{
   background-image: url(gif/sun.gif);
